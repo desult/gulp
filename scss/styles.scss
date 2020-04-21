@@ -1,0 +1,20 @@
+@import "variables.scss";
+
+body {        background-image: url("../img/bg-stars.png"),
+              linear-gradient(to bottom right,
+              hsl($hue01, 30, 35),
+              hsl($hue02, 10, 45));
+              background-attachment: fixed;
+              color: $textcolor; }
+
+html {                 box-sizing: border-box; }
+*, *:before, *:after { box-sizing: inherit;
+                        font-family: sans-serif;}
+
+body {         padding: 50px;
+               background-color: grey;}
+
+main, header { background-color: white;
+               padding: 40px;}
+
+header {       text-align: center;}
