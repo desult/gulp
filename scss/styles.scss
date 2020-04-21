@@ -1,9 +1,9 @@
 @import "variables.scss";
 
-body {        background-image: url("../img/bg-stars.png"),
-              linear-gradient(to bottom right,
-              hsl($hue01, 30, 35),
-              hsl($hue02, 10, 45));
+body {        background: url("../img/bg-stripe.png"),
+              linear-gradient(180deg,
+              hsl($hue02, 5, 50),
+              hsl($hue02, 4, 40));
               background-attachment: fixed;
               color: $textcolor; }
 

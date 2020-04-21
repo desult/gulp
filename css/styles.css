@@ -1,5 +1,5 @@
 body {
-  background-image: url("../img/bg-stars.png"), linear-gradient(to bottom right, #74503e, #677e67);
+  background: url("../img/bg-stripe.png"), linear-gradient(180deg, #798679, #626a62);
   background-attachment: fixed;
   color: #734026;
 }
