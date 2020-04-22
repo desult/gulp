@@ -1,15 +1,23 @@
 @import "variables.scss";
-
-body {        background: url("../img/bg-stripe.png"),
-              linear-gradient(180deg,
-              hsl($hue02, 5, 50),
-              hsl($hue02, 4, 40));
-              background-attachment: fixed;
-              color: $textcolor; }
+@import "fonts.scss";
 
 html {                 box-sizing: border-box; }
-*, *:before, *:after { box-sizing: inherit;
-                        font-family: sans-serif;}
+*, *:before, *:after { box-sizing: inherit;    }
+
+body {        font-family: 'Epilogue', sans-serif;
+              font-variation-settings: "wdth" 0, "wght" 95;
+              background:
+              repeating-linear-gradient(-45deg,
+              hsla($hue01, 100, 80, .02), hsla($hue01, 100, 80, .02) 3px,
+              transparent 3px, transparent 10px),
+
+              linear-gradient(180deg,
+              hsl($hue01, 50, 50),
+              hsl($hue02, 40, 10));
+              background-attachment: fixed;
+
+              color: $textcolor; }
+
 
 body {         padding: 50px;
                background-color: grey;}
@@ -18,3 +26,6 @@ main, header { background-color: white;
                padding: 40px;}
 
 header {       text-align: center;}
+
+h1     {       font-variation-settings: "wdth" 0, "wght" 128;
+               font-size: 3em;}

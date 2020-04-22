@@ -1,16 +1,37 @@
-body {
-  background: url("../img/bg-stripe.png"), linear-gradient(180deg, #798679, #626a62);
-  background-attachment: fixed;
-  color: #734026;
+@font-face {
+  font-family: "Epilogue";
+  src: url(../fonts/epilogue/Epilogue[slnt,wght].woff2);
 }
-
+@font-face {
+  font-family: "League Mono";
+  src: url(../fonts/leaguemono/LeagueMonoVariable.woff2);
+}
+@font-face {
+  font-family: "League Spartan";
+  src: url(../fonts/leaguespartan/LeagueSpartanVariable.woff2);
+}
+@font-face {
+  font-family: "Cabin";
+  src: url(../fonts/cabin/Cabin_V.ttf);
+}
+@font-face {
+  font-family: "Cabin Italic";
+  src: url(../fonts/cabin/Cabin-Italic_V.ttf);
+}
 html {
   box-sizing: border-box;
 }
 
 *, *:before, *:after {
   box-sizing: inherit;
-  font-family: sans-serif;
+}
+
+body {
+  font-family: "Epilogue", sans-serif;
+  font-variation-settings: "wdth" 0, "wght" 95;
+  background: repeating-linear-gradient(-45deg, rgba(255, 187, 153, 0.02), rgba(255, 187, 153, 0.02) 3px, transparent 3px, transparent 10px), linear-gradient(180deg, #bf6a40, #0f240f);
+  background-attachment: fixed;
+  color: #734026;
 }
 
 body {
@@ -25,6 +46,11 @@ main, header {
 
 header {
   text-align: center;
+}
+
+h1 {
+  font-variation-settings: "wdth" 0, "wght" 128;
+  font-size: 3em;
 }
 
 /*# sourceMappingURL=styles.css.map */
