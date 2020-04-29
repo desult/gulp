@@ -3,7 +3,7 @@ function updateGarment(e) {
   let garment = document.querySelector('#proof');
   let garmenturl = e.dataset.im; //image URL
   let colortext = document.getElementById('colortext');
-  garment.style.backgroundImage = `url(\" ${garmenturl} \")`;
+  garment.style.backgroundImage = `url(\"${garmenturl}\")`;
   colortext.innerHTML = e.dataset.color.toUpperCase();
 }
 
