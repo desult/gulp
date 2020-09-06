@@ -22,10 +22,12 @@ html {
 body {
   font-family: 'Epilogue', sans-serif;
   font-variation-settings: "wdth" 0, "wght" 400;
-  background: repeating-linear-gradient(-45deg, rgba(255, 187, 153, 0.02), rgba(255, 187, 153, 0.02) 3px, transparent 3px, transparent 8px), linear-gradient(180deg, #7a5f52, #141f14);
+  background: repeating-linear-gradient(-45deg, rgba(255, 187, 153, 0.03), rgba(255, 187, 153, 0.03) 15px, transparent 15px, transparent 30px), linear-gradient(180deg, #3d3029, #141f14);
   background-attachment: fixed;
   color: #734026;
-  padding: 20px; }
+  padding: 20px;
+  max-width: 1500px;
+  margin: auto; }
 
 header, main {
   margin: auto;
@@ -38,7 +40,7 @@ header {
   text-align: center; }
 
 .bgtest {
-  background-color: #dbc7bd;
+  background-color: #ebc2ad;
   background-image: url("../img/tex/13.jpg");
   background-blend-mode: multiply;
   padding: 30px; }
@@ -46,5 +48,40 @@ header {
 h1 {
   font-variation-settings: "wdth" 0, "wght" 500;
   font-size: 3em; }
+
+footer {
+  background-color: white;
+  margin: 0px;
+  padding: 4px 30px; }
+
+.swatchpage {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  max-width: 500px;
+  margin: auto;
+  margin-top: 60; }
+
+.swatch11 {
+  background-color: #ebc2ad;
+  width: 30px;
+  height: 30px; }
+
+.swatch12 {
+  background-color: #a35229;
+  width: 30px;
+  height: 30px; }
+
+.swatch21 {
+  background-color: #adebad;
+  width: 30px;
+  height: 30px; }
+
+.swatch22 {
+  background-color: #089108;
+  width: 30px;
+  height: 30px; }
+
+.swatchpage h3 {
+  margin: 0px; }
 
 /*# sourceMappingURL=styles.css.map */
