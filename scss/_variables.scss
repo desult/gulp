@@ -1,14 +1,12 @@
-$hue01: 20;
-$hue02: 120;
+$hue01: 185;
+$hue02: $hue01+180deg;
 $textcolor: hsl($hue01, 50, 30);
 
 
+$swatch10: hsla($hue01, 70, 98, 1) ;
 $swatch11: hsla($hue01, 60, 80, 1) ;
 $swatch12: hsla($hue01, 60, 40, 1) ;
+
+$swatch20: hsla($hue02, 70, 98, 1) ;
 $swatch21: hsla($hue02, 60, 80, 1) ;
 $swatch22: hsla($hue02, 90, 30, 1) ;
-
-
-
-$stripe1: 15px;
-$stripe2: 30px;

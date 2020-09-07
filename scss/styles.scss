@@ -7,10 +7,8 @@ html {                 box-sizing: border-box; }
 
 body {         font-family: 'Epilogue', sans-serif;
                font-variation-settings: "wdth" 0, "wght" 400;
-
-               background: $background01;
+               background: $background02;
                background-attachment: fixed;
-
                color: $textcolor;
                padding: 20px;
                max-width: 1500px;
@@ -43,12 +41,18 @@ footer {       background-color: white;
                margin: auto;
                margin-top: 60; }
 
+.swatch10 {    background-color: $swatch10;
+               width: 30px;
+               height: 30px; }
 .swatch11 {    background-color: $swatch11;
                width: 30px;
                height: 30px; }
 .swatch12 {    background-color: $swatch12;
                width: 30px;
                height: 30px; }
+.swatch20 {    background-color: $swatch20;
+              width: 30px;
+              height: 30px; }
 .swatch21 {    background-color: $swatch21;
                width: 30px;
                height: 30px; }
