@@ -1,0 +1,10 @@
+$background01:
+repeating-linear-gradient(-45deg,
+hsla($hue01, 100, 80, .03),
+hsla($hue01, 100, 80, .03) $stripe1,
+transparent $stripe1,
+transparent $stripe2),
+
+linear-gradient(180deg,
+hsl($hue01, 20, 20),
+hsl($hue02, 20, 10));
