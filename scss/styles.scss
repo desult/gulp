@@ -41,24 +41,16 @@ footer {       background-color: white;
                margin: auto;
                margin-top: 60; }
 
-.swatch10 {    background-color: $swatch10;
-               width: 30px;
-               height: 30px; }
-.swatch11 {    background-color: $swatch11;
-               width: 30px;
-               height: 30px; }
-.swatch12 {    background-color: $swatch12;
-               width: 30px;
-               height: 30px; }
-.swatch20 {    background-color: $swatch20;
-              width: 30px;
-              height: 30px; }
-.swatch21 {    background-color: $swatch21;
-               width: 30px;
-               height: 30px; }
-.swatch22 {    background-color: $swatch22;
-               width: 30px;
-               height: 30px; }
+.swatch {      width: 30px;
+               height: 30px;
+               border-radius: 50%}
+
+.swatch10 {    background-color: $swatch10; }
+.swatch11 {    background-color: $swatch11; }
+.swatch12 {    background-color: $swatch12; }
+.swatch20 {    background-color: $swatch20; }
+.swatch21 {    background-color: $swatch21; }
+.swatch22 {    background-color: $swatch22; }
 
 
 

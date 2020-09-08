@@ -61,35 +61,28 @@ footer {
   margin: auto;
   margin-top: 60; }
 
-.swatch10 {
-  background-color: #f6fdfd;
+.swatch {
   width: 30px;
-  height: 30px; }
+  height: 30px;
+  border-radius: 50%; }
+
+.swatch10 {
+  background-color: #f6fdfd; }
 
 .swatch11 {
-  background-color: #ade6eb;
-  width: 30px;
-  height: 30px; }
+  background-color: #ade6eb; }
 
 .swatch12 {
-  background-color: #2999a3;
-  width: 30px;
-  height: 30px; }
+  background-color: #2999a3; }
 
 .swatch20 {
-  background-color: #fdf7f6;
-  width: 30px;
-  height: 30px; }
+  background-color: #fdf7f6; }
 
 .swatch21 {
-  background-color: #ebb3ad;
-  width: 30px;
-  height: 30px; }
+  background-color: #ebb3ad; }
 
 .swatch22 {
-  background-color: #911308;
-  width: 30px;
-  height: 30px; }
+  background-color: #911308; }
 
 .swatchpage h3 {
   margin: 0px; }
