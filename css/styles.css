@@ -55,16 +55,21 @@ footer {
   padding: 4px 30px; }
 
 .swatchpage {
-  display: grid;
-  grid-template-columns: 1fr 4fr;
   max-width: 500px;
   margin: auto;
   margin-top: 60; }
 
+.swatchi {
+  display: flex;
+  justify-content: flex-start;
+  margin: 5px; }
+
 .swatch {
   width: 30px;
   height: 30px;
-  border-radius: 50%; }
+  border-radius: 50%;
+  margin-right: 10px;
+  border: 1px solid rgba(8, 40, 43, 0.1); }
 
 .swatch10 {
   background-color: #f6fdfd; }
