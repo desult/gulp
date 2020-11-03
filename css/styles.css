@@ -22,9 +22,9 @@ html {
 body {
   font-family: 'Epilogue', sans-serif;
   font-variation-settings: "wdth" 0, "wght" 400;
-  background: repeating-linear-gradient(-45deg, #616b69, #616b69 35px, transparent 35px, transparent 42px), repeating-linear-gradient(45deg, #616b69, #616b69 35px, transparent 35px, transparent 42px), linear-gradient(180deg, #525b5a, #525b5a);
+  background: repeating-linear-gradient(-45deg, #616b69, #616b69 35px, transparent 35px, transparent 42px), repeating-linear-gradient(45deg, #616b69, #616b69 35px, transparent 35px, transparent 42px), linear-gradient(180deg, #525b59, #525b59);
   background-attachment: fixed;
-  color: #267366;
+  color: #267360;
   padding: 20px;
   max-width: 1500px;
   margin: auto; }
@@ -40,7 +40,7 @@ header {
   text-align: center; }
 
 .bgtest {
-  background-color: #adebe0;
+  background-color: #adebdb;
   background-image: url("../img/tex/13.jpg");
   background-blend-mode: multiply;
   padding: 30px; }
@@ -69,25 +69,25 @@ footer {
   height: 30px;
   border-radius: 50%;
   margin-right: 10px;
-  border: 1px solid rgba(8, 43, 37, 0.1); }
+  border: 1px solid rgba(8, 43, 34, 0.1); }
 
 .swatch10 {
   background-color: #f6fdfc; }
 
 .swatch11 {
-  background-color: #adebe0; }
+  background-color: #adebdb; }
 
 .swatch12 {
-  background-color: #29a38f; }
+  background-color: #29a385; }
 
 .swatch20 {
   background-color: #fdf6f8; }
 
 .swatch21 {
-  background-color: #ebadb8; }
+  background-color: #ebadbd; }
 
 .swatch22 {
-  background-color: #91081f; }
+  background-color: #91082a; }
 
 .swatchpage h3 {
   margin: 0px; }

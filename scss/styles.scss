@@ -15,13 +15,14 @@ body {         font-family: 'Epilogue', sans-serif;
                margin: auto; }
 
 
+
 header, main { margin: auto;
                background-color: hsl($hue01, 20, 96);
                padding: 2px 40px;
                max-width: 1500px;
                box-shadow: 0px 6px 4px hsla($hue01, 0, 0, .2);}
 
-header {       text-align: center; }
+header {       text-align: center;}
 
 .bgtest {      background-color: $swatch11;
                background-image: url("../img/tex/13.jpg");
