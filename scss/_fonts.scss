@@ -20,6 +20,9 @@ $font-19: 'spacegrotesk';
 $font-20: 'sudo';
 $font-21: 'worksans';
 $font-22: 'worksans-italic';
+$font-23: 'dosis';
+$font-24: 'comfortaa';
+
 
 
 @font-face {
@@ -179,4 +182,16 @@ $font-22: 'worksans-italic';
   font-family: 'worksans-italic';
   src: url(../fonts/variable/worksans-italic.ttf);
   // wght 250 900
+}
+
+@font-face {
+  font-family: 'dosis';
+  src: url(../fonts/variable/dosis.ttf);
+  // wght 200 800
+}
+
+@font-face {
+  font-family: 'comfortaa';
+  src: url(../fonts/variable/comfortaa.ttf);
+  // wght 300 700
 }

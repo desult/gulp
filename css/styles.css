@@ -64,6 +64,12 @@
 @font-face {
   font-family: 'worksans-italic';
   src: url(../fonts/variable/worksans-italic.ttf); }
+@font-face {
+  font-family: 'dosis';
+  src: url(../fonts/variable/dosis.ttf); }
+@font-face {
+  font-family: 'comfortaa';
+  src: url(../fonts/variable/comfortaa.ttf); }
 html {
   box-sizing: border-box; }
 
@@ -71,7 +77,7 @@ html {
   box-sizing: inherit; }
 
 body {
-  font-family: "minipax", sans-serif;
+  font-family: "comfortaa", sans-serif;
   font-variation-settings: "wdth" 0, "wght" 400;
   background: repeating-linear-gradient(-45deg, #616b69, #616b69 35px, transparent 35px, transparent 42px), repeating-linear-gradient(45deg, #616b69, #616b69 35px, transparent 35px, transparent 42px), linear-gradient(180deg, #525b59, #525b59);
   background-attachment: fixed;
