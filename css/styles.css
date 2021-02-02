@@ -13,6 +13,57 @@
 @font-face {
   font-family: 'Cabin Italic';
   src: url(../fonts/cabin/Cabin-Italic_V.ttf); }
+@font-face {
+  font-family: 'commissioner';
+  src: url(../fonts/variable/commissioner.ttf); }
+@font-face {
+  font-family: 'crimsonpro';
+  src: url(../fonts/variable/crimsonpro.ttf); }
+@font-face {
+  font-family: 'crimsonpro-italic';
+  src: url(../fonts/variable/crimsonpro-italic.ttf); }
+@font-face {
+  font-family: 'firacode';
+  src: url(../fonts/variable/firacode.ttf); }
+@font-face {
+  font-family: 'fraunces';
+  src: url(../fonts/variable/fraunces.woff2); }
+@font-face {
+  font-family: 'fraunces-italic';
+  src: url(../fonts/variable/fraunces-italic.woff2); }
+@font-face {
+  font-family: 'heptaslabbeta';
+  src: url(../fonts/variable/heptaslabbeta.ttf); }
+@font-face {
+  font-family: 'inter';
+  src: url(../fonts/variable/inter.ttf); }
+@font-face {
+  font-family: 'jost';
+  src: url(../fonts/variable/jost.ttf); }
+@font-face {
+  font-family: 'minipax';
+  src: url(../fonts/variable/minipax.ttf); }
+@font-face {
+  font-family: 'robotoflex';
+  src: url(../fonts/variable/robotoflex.ttf); }
+@font-face {
+  font-family: 'secuela';
+  src: url(../fonts/variable/secuela.ttf); }
+@font-face {
+  font-family: 'secuela-italic';
+  src: url(../fonts/variable/secuela-italic.ttf); }
+@font-face {
+  font-family: 'spacegrotesk';
+  src: url(../fonts/variable/spacegrotesk.ttf); }
+@font-face {
+  font-family: 'sudo';
+  src: url(../fonts/variable/sudo.woff2); }
+@font-face {
+  font-family: 'worksans';
+  src: url(../fonts/variable/worksans.ttf); }
+@font-face {
+  font-family: 'worksans-italic';
+  src: url(../fonts/variable/worksans-italic.ttf); }
 html {
   box-sizing: border-box; }
 
@@ -20,7 +71,7 @@ html {
   box-sizing: inherit; }
 
 body {
-  font-family: 'Epilogue', sans-serif;
+  font-family: "minipax", sans-serif;
   font-variation-settings: "wdth" 0, "wght" 400;
   background: repeating-linear-gradient(-45deg, #616b69, #616b69 35px, transparent 35px, transparent 42px), repeating-linear-gradient(45deg, #616b69, #616b69 35px, transparent 35px, transparent 42px), linear-gradient(180deg, #525b59, #525b59);
   background-attachment: fixed;

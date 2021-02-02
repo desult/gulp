@@ -1,3 +1,27 @@
+$font-01: 'Epilogue';
+$font-02: 'League Mono';
+$font-03: 'League Spartan';
+$font-04: 'Cabin';
+$font-05: 'Cabin Italic';
+$font-06: 'commissioner';
+$font-07: 'crimsonpro';
+$font-08: 'crimsonpro-italic';
+$font-09: 'firacode';
+$font-10: 'fraunces';
+$font-11: 'fraunces-italic';
+$font-12: 'heptaslabbeta';
+$font-13: 'inter';
+$font-14: 'jost';
+$font-15: 'minipax';
+$font-16: 'robotoflex';
+$font-17: 'secuela';
+$font-18: 'secuela-italic';
+$font-19: 'spacegrotesk';
+$font-20: 'sudo';
+$font-21: 'worksans';
+$font-22: 'worksans-italic';
+
+
 @font-face {
   font-family: 'Epilogue';
   src: url(../fonts/epilogue/Epilogue[slnt,wght].woff2);
@@ -29,4 +53,130 @@
   font-family: 'Cabin Italic';
   src: url(../fonts/cabin/Cabin-Italic_V.ttf);
   // wght 95 128
+}
+
+@font-face {
+  font-family: 'commissioner';
+  src: url(../fonts/variable/commissioner.ttf);
+  // wght 100 900
+  // slnt -12 0
+  // flar 0 100
+  // volm 0 100 (not sure what this does)
+}
+
+@font-face {
+  font-family: 'crimsonpro';
+  src: url(../fonts/variable/crimsonpro.ttf);
+  // wght 275 900
+}
+
+@font-face {
+  font-family: 'crimsonpro-italic';
+  src: url(../fonts/variable/crimsonpro-italic.ttf);
+  // wght 275 900
+}
+
+@font-face {
+  font-family: 'firacode';
+  src: url(../fonts/variable/firacode.ttf);
+  // wght 300 700
+}
+
+@font-face {
+  font-family: 'fraunces';
+  src: url(../fonts/variable/fraunces.woff2);
+  // opsz 9 144 (optical size)
+  // soft 0 100
+  // wght 100 900
+  // wonk 0 1
+}
+
+@font-face {
+  font-family: 'fraunces-italic';
+  src: url(../fonts/variable/fraunces-italic.woff2);
+  // opsz 9 144 (optical size)
+  // soft 0 100
+  // wght 100 900
+  // wonk 0 1
+}
+
+@font-face {
+  font-family: 'heptaslabbeta';
+  src: url(../fonts/variable/heptaslabbeta.ttf);
+  // wght 0 900
+}
+
+@font-face {
+  font-family: 'inter';
+  src: url(../fonts/variable/inter.ttf);
+  // wght 100 900
+  // slnt -10 0
+}
+
+@font-face {
+  font-family: 'jost';
+  src: url(../fonts/variable/jost.ttf);
+  // wght 100 900
+  // slnt 0 2
+}
+
+@font-face {
+  font-family: 'minipax';
+  src: url(../fonts/variable/minipax.ttf);
+  // wght 100 600
+}
+
+
+@font-face {
+  font-family: 'robotoflex';
+  src: url(../fonts/variable/robotoflex.ttf);
+  // wght 100 1000
+  // wdth 25 151
+  // opsz 8 144
+  // grad -1 1
+  // slnt -10 0
+  // xtra 323 603
+  // xopq 27 175
+  // yopq 25 135
+  // ytlc 528 760
+  // ytas 649 854
+  // ytde -305 -98
+  // ytfi 560 788
+}
+
+@font-face {
+  font-family: 'secuela';
+  src: url(../fonts/variable/secuela.ttf);
+  // wght 300 800
+}
+
+@font-face {
+  font-family: 'secuela-italic';
+  src: url(../fonts/variable/secuela-italic.ttf);
+  // wght 300 800
+}
+
+@font-face {
+  font-family: 'spacegrotesk';
+  src: url(../fonts/variable/spacegrotesk.ttf);
+  // wght 300 700
+}
+
+@font-face {
+  font-family: 'sudo';
+  src: url(../fonts/variable/sudo.woff2);
+  // wght 200 700
+  // ital 0 1
+}
+
+@font-face {
+  font-family: 'worksans';
+  src: url(../fonts/variable/worksans.ttf);
+  // wght 250 900
+}
+
+@font-face {
+  font-family: 'worksans-italic';
+  src: url(../fonts/variable/worksans-italic.ttf);
+  // wght 250 900
 }
