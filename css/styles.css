@@ -1,18 +1,18 @@
 @font-face {
-  font-family: 'Epilogue';
-  src: url(../fonts/epilogue/Epilogue[slnt,wght].woff2); }
+  font-family: 'epilogue';
+  src: url(../fonts/variable/epilogue.woff2); }
 @font-face {
-  font-family: 'League Mono';
-  src: url(../fonts/leaguemono/LeagueMonoVariable.woff2); }
+  font-family: 'league mono';
+  src: url(../fonts/variable/league_Mono.woff2); }
 @font-face {
-  font-family: 'League Spartan';
-  src: url(../fonts/leaguespartan/LeagueSpartanVariable.woff2); }
+  font-family: 'league spartan';
+  src: url(../fonts/variable/league_spartan.woff2); }
 @font-face {
-  font-family: 'Cabin';
-  src: url(../fonts/cabin/Cabin_V.ttf); }
+  font-family: 'cabin';
+  src: url(../fonts/variable/cabin.ttf); }
 @font-face {
-  font-family: 'Cabin Italic';
-  src: url(../fonts/cabin/Cabin-Italic_V.ttf); }
+  font-family: 'cabin-italic';
+  src: url(../fonts/variable/cabin-italic.ttf); }
 @font-face {
   font-family: 'commissioner';
   src: url(../fonts/variable/commissioner.ttf); }
@@ -70,6 +70,12 @@
 @font-face {
   font-family: 'comfortaa';
   src: url(../fonts/variable/comfortaa.ttf); }
+@font-face {
+  font-family: 'graduate';
+  src: url(../fonts/variable/graduate.ttf); }
+@font-face {
+  font-family: 'manrope';
+  src: url(../fonts/variable/manrope.ttf); }
 html {
   box-sizing: border-box; }
 
@@ -77,7 +83,7 @@ html {
   box-sizing: inherit; }
 
 body {
-  font-family: "comfortaa", sans-serif;
+  font-family: "manrope", sans-serif;
   font-variation-settings: "wdth" 0, "wght" 400;
   background: repeating-linear-gradient(-45deg, #616b69, #616b69 35px, transparent 35px, transparent 42px), repeating-linear-gradient(45deg, #616b69, #616b69 35px, transparent 35px, transparent 42px), linear-gradient(180deg, #525b59, #525b59);
   background-attachment: fixed;

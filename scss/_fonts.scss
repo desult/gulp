@@ -1,60 +1,70 @@
-$font-01: 'Epilogue';
-$font-02: 'League Mono';
-$font-03: 'League Spartan';
-$font-04: 'Cabin';
-$font-05: 'Cabin Italic';
-$font-06: 'commissioner';
-$font-07: 'crimsonpro';
-$font-08: 'crimsonpro-italic';
-$font-09: 'firacode';
-$font-10: 'fraunces';
-$font-11: 'fraunces-italic';
-$font-12: 'heptaslabbeta';
-$font-13: 'inter';
-$font-14: 'jost';
-$font-15: 'minipax';
-$font-16: 'robotoflex';
-$font-17: 'secuela';
-$font-18: 'secuela-italic';
-$font-19: 'spacegrotesk';
-$font-20: 'sudo';
-$font-21: 'worksans';
-$font-22: 'worksans-italic';
-$font-23: 'dosis';
-$font-24: 'comfortaa';
+// San-Serif
+$font-ss01: 'epilogue'; // w s
+$font-ss02: 'league spartan'; // w
+$font-ss03: 'cabin'; // w w
+$font-ss04: 'cabin-italic'; // w w
+$font-ss05: 'commissioner'; // w s f v
+$font-ss06: 'inter'; // w s
+$font-ss07: 'jost'; // w s
+$font-ss08: 'robotoflex'; // 12
+$font-ss09: 'secuela'; // w
+$font-ss10: 'secuela-italic'; // w
+$font-ss11: 'spacegrotesk'; // w
+$font-ss12: 'sudo'; // w i
+$font-ss13: 'worksans'; // w
+$font-ss14: 'worksans-italic'; // w
+$font-ss15: 'manrope'; // w
 
+// Serif
+$font-s01: 'crimsonpro'; // w
+$font-s02: 'crimsonpro-italic'; // w
+$font-s03: 'fraunces'; // o s w w
+$font-s04: 'fraunces-italic'; // o s w w
+$font-s05: 'minipax'; // w
+
+// Mono-Spaced
+$font-m01: 'league mono'; // w w
+$font-m02: 'firacode'; // w
+
+// Slab-Serif
+$font-sl01: 'heptaslabbeta'; // w
+$font-sl02: 'graduate'; // 12
+
+// Rounded San-Serif
+$font-r01: 'dosis'; // w
+$font-r02: 'comfortaa'; // w
 
 
 @font-face {
-  font-family: 'Epilogue';
-  src: url(../fonts/epilogue/Epilogue[slnt,wght].woff2);
+  font-family: 'epilogue';
+  src: url(../fonts/variable/epilogue.woff2);
   // wght 100 900
   // slnt -12 0
 }
 
 @font-face {
-  font-family: 'League Mono';
-  src: url(../fonts/leaguemono/LeagueMonoVariable.woff2);
+  font-family: 'league mono';
+  src: url(../fonts/variable/league_Mono.woff2);
   // wght 100 800
   // wdth 50 200
 }
 
 @font-face {
-  font-family: 'League Spartan';
-  src: url(../fonts/leaguespartan/LeagueSpartanVariable.woff2);
+  font-family: 'league spartan';
+  src: url(../fonts/variable/league_spartan.woff2);
   // wght 200 900
 }
 
 @font-face {
-  font-family: 'Cabin';
-  src: url(../fonts/cabin/Cabin_V.ttf);
+  font-family: 'cabin';
+  src: url(../fonts/variable/cabin.ttf);
   // wght 95 128
   // wdth 0 100
 }
 
 @font-face {
-  font-family: 'Cabin Italic';
-  src: url(../fonts/cabin/Cabin-Italic_V.ttf);
+  font-family: 'cabin-italic';
+  src: url(../fonts/variable/cabin-italic.ttf);
   // wght 95 128
 }
 
@@ -194,4 +204,27 @@ $font-24: 'comfortaa';
   font-family: 'comfortaa';
   src: url(../fonts/variable/comfortaa.ttf);
   // wght 300 700
+}
+
+@font-face {
+  font-family: 'graduate';
+  src: url(../fonts/variable/graduate.ttf);
+  // xopq 100 900
+  // xtra 100 800
+  // opsz 8 16
+  // grad 0 20
+  // ytra 750 850
+  // cntr 0 100
+  // yopq 100 800
+  // serf 0 30
+  // ytas 0 50
+  // ytlc 650 750
+  // ytde 0 50
+  // sele -20 0
+}
+
+@font-face {
+  font-family: 'manrope';
+  src: url(../fonts/variable/manrope.ttf);
+  // wght 200 800
 }
