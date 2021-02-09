@@ -1,0 +1,40 @@
+@import "variables.scss";
+
+nav {             background: $swatch11;
+                  padding: 1px;
+                  display: flex;
+                  justify-content: center; }
+
+nav #navLinks {   display: flex;
+                  justify-content: flex-end; }
+
+nav #hamburger {  display: none; }
+
+nav .hambox {     display: flex;
+                  justify-content: flex-end; }
+
+nav ul {          list-style-type: none;
+                  display: flex;
+                  margin: 0;
+                  padding: 0; }
+
+nav ul li {       padding: 10px 20px;
+                  background: $swatch11; }
+
+nav ul li:hover { padding: 10px 20px;
+                  background: $swatch10;    }
+
+#hamburger {      background: $swatch11;
+                  padding: 10px 15px; }
+
+#hamburger:hover {background: $swatch10; }
+
+
+@media only screen and (max-width: 940px) {
+nav {           display: block; }
+nav #navLinks { display: none; }
+nav #hamburger {display: block; }           }
+
+@media only screen and (max-width: 700px) { }
+
+@media only screen and (max-width: 500px) { }

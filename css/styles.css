@@ -76,6 +76,53 @@
 @font-face {
   font-family: 'manrope';
   src: url(../fonts/variable/manrope.ttf); }
+nav {
+  background: #adebdb;
+  padding: 1px;
+  display: flex;
+  justify-content: center; }
+
+nav #navLinks {
+  display: flex;
+  justify-content: flex-end; }
+
+nav #hamburger {
+  display: none; }
+
+nav .hambox {
+  display: flex;
+  justify-content: flex-end; }
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0; }
+
+nav ul li {
+  padding: 10px 20px;
+  background: #adebdb; }
+
+nav ul li:hover {
+  padding: 10px 20px;
+  background: #f6fdfc; }
+
+#hamburger {
+  background: #adebdb;
+  padding: 10px 15px; }
+
+#hamburger:hover {
+  background: #f6fdfc; }
+
+@media only screen and (max-width: 940px) {
+  nav {
+    display: block; }
+
+  nav #navLinks {
+    display: none; }
+
+  nav #hamburger {
+    display: block; } }
 html {
   box-sizing: border-box; }
 
@@ -91,6 +138,10 @@ body {
   padding: 20px;
   max-width: 1500px;
   margin: auto; }
+
+a {
+  color: #91082a;
+  text-decoration: none; }
 
 header, main {
   margin: auto;
