@@ -1,10 +1,10 @@
-$hue01: 165;
+$hue01: 30;
 $hue02: $hue01+180deg;
-$textcolor: hsl($hue01, 50, 30);
+$textcolor: hsl($hue01, 10, 30);
 
 
-$swatch10: hsla($hue01, 70, 98, 1) ;
-$swatch11: hsla($hue01, 60, 80, 1) ;
+$swatch10: hsla($hue01, 70, 70, 1) ;
+$swatch11: hsla($hue01, 30, 80, 1) ;
 $swatch12: hsla($hue01, 60, 40, 1) ;
 
 $swatch20: hsla($hue02, 70, 98, 1) ;

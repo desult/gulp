@@ -8,41 +8,36 @@ html {                 box-sizing: border-box; }
 
 body {         font-family: $font-ss15, sans-serif;
                font-variation-settings: "wdth" 0, "wght" 400;
-               background: $background02;
+               background: $background;
                background-attachment: fixed;
                color: $textcolor;
-               padding: 20px;
-               max-width: 1500px;
-               margin: auto; }
+               padding: 20px; }
 
 a {            color: $swatch22;
                text-decoration: none; }
 
-
-header, main { margin: auto;
-               background-color: hsl($hue01, 20, 96);
+header, main,
+footer       { background-color: hsl($hue01, 20, 96);
                padding: 2px 40px;
-               max-width: 1500px;
                box-shadow: 0px 6px 4px hsla($hue01, 0, 0, .2);}
 
 header {       text-align: center;}
+
+.paper {       margin: auto;
+               max-width: 1200px;}
 
 .bgtest {      background-color: $swatch11;
                background-image: url("../img/tex/13.jpg");
                background-blend-mode: multiply;
                padding: 30px; }
 
-h1     {       font-variation-settings: "wdth" 0, "wght" 500;
+h1     {       font-variation-settings: "wdth" 0, "wght" 400;
                font-size: 3em;}
-
-footer {       background-color: white;
-               margin: 0px;
-               padding: 4px 30px;   }
 
 .swatchpage {  max-width: 500px;
                margin: auto;
                margin-top: 60; }
-.swatchi     {  display: flex;
+.swatchi     { display: flex;
                justify-content: flex-start;
                margin: 5px;}
 

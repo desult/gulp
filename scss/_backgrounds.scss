@@ -1,14 +1,14 @@
+// background 1
 $stripe1: 15px;
 $stripe2: 30px;
-$stripe3: 35px;
-$stripe4: 42px;
 
 // background 2
-$sat1: 5;
-$lit1: 40;
-
-$sat2: 5;
-$lit2: 34;
+$sat1: 10;
+$lit1: 30;
+$sat2: 10;
+$lit2: 28;
+$stripe3: 7px;
+$stripe4: 11px;
 
 $background01:
     repeating-linear-gradient(-45deg,
@@ -24,17 +24,19 @@ $background01:
 
 $background02:
     repeating-linear-gradient(-45deg,
-    hsla($hue01, $sat1, $lit1, 1),
-    hsla($hue01, $sat1, $lit1, 1) $stripe3,
+    hsla($hue02, $sat1, $lit1, 1),
+    hsla($hue02, $sat1, $lit1, 1) $stripe3,
     transparent $stripe3,
     transparent $stripe4),
 
     repeating-linear-gradient(45deg,
-    hsla($hue01, $sat1, $lit1, 1),
-    hsla($hue01, $sat1, $lit1, 1) $stripe3,
+    hsla($hue02, $sat1, $lit1, 1),
+    hsla($hue02, $sat1, $lit1, 1) $stripe3,
     transparent $stripe3,
     transparent $stripe4),
 
     linear-gradient(180deg,
-    hsl($hue01, $sat2, $lit2),
-    hsl($hue01, $sat2, $lit2));
+    hsl($hue02, $sat2, $lit2),
+    hsl($hue02, $sat2, $lit2));
+
+$background: $background02;

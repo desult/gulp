@@ -1,209 +1,261 @@
 @font-face {
-  font-family: 'epilogue';
-  src: url(../fonts/variable/epilogue.woff2); }
+  font-family: "epilogue";
+  src: url(../fonts/variable/epilogue.woff2);
+}
 @font-face {
-  font-family: 'league mono';
-  src: url(../fonts/variable/league_Mono.woff2); }
+  font-family: "league mono";
+  src: url(../fonts/variable/league_Mono.woff2);
+}
 @font-face {
-  font-family: 'league spartan';
-  src: url(../fonts/variable/league_spartan.woff2); }
+  font-family: "league spartan";
+  src: url(../fonts/variable/league_spartan.woff2);
+}
 @font-face {
-  font-family: 'cabin';
-  src: url(../fonts/variable/cabin.ttf); }
+  font-family: "cabin";
+  src: url(../fonts/variable/cabin.ttf);
+}
 @font-face {
-  font-family: 'cabin-italic';
-  src: url(../fonts/variable/cabin-italic.ttf); }
+  font-family: "cabin-italic";
+  src: url(../fonts/variable/cabin-italic.ttf);
+}
 @font-face {
-  font-family: 'commissioner';
-  src: url(../fonts/variable/commissioner.ttf); }
+  font-family: "commissioner";
+  src: url(../fonts/variable/commissioner.ttf);
+}
 @font-face {
-  font-family: 'crimsonpro';
-  src: url(../fonts/variable/crimsonpro.ttf); }
+  font-family: "crimsonpro";
+  src: url(../fonts/variable/crimsonpro.ttf);
+}
 @font-face {
-  font-family: 'crimsonpro-italic';
-  src: url(../fonts/variable/crimsonpro-italic.ttf); }
+  font-family: "crimsonpro-italic";
+  src: url(../fonts/variable/crimsonpro-italic.ttf);
+}
 @font-face {
-  font-family: 'firacode';
-  src: url(../fonts/variable/firacode.ttf); }
+  font-family: "firacode";
+  src: url(../fonts/variable/firacode.ttf);
+}
 @font-face {
-  font-family: 'fraunces';
-  src: url(../fonts/variable/fraunces.woff2); }
+  font-family: "fraunces";
+  src: url(../fonts/variable/fraunces.woff2);
+}
 @font-face {
-  font-family: 'fraunces-italic';
-  src: url(../fonts/variable/fraunces-italic.woff2); }
+  font-family: "fraunces-italic";
+  src: url(../fonts/variable/fraunces-italic.woff2);
+}
 @font-face {
-  font-family: 'heptaslabbeta';
-  src: url(../fonts/variable/heptaslabbeta.ttf); }
+  font-family: "heptaslabbeta";
+  src: url(../fonts/variable/heptaslabbeta.ttf);
+}
 @font-face {
-  font-family: 'inter';
-  src: url(../fonts/variable/inter.ttf); }
+  font-family: "inter";
+  src: url(../fonts/variable/inter.ttf);
+}
 @font-face {
-  font-family: 'jost';
-  src: url(../fonts/variable/jost.ttf); }
+  font-family: "jost";
+  src: url(../fonts/variable/jost.ttf);
+}
 @font-face {
-  font-family: 'minipax';
-  src: url(../fonts/variable/minipax.ttf); }
+  font-family: "minipax";
+  src: url(../fonts/variable/minipax.ttf);
+}
 @font-face {
-  font-family: 'robotoflex';
-  src: url(../fonts/variable/robotoflex.ttf); }
+  font-family: "robotoflex";
+  src: url(../fonts/variable/robotoflex.ttf);
+}
 @font-face {
-  font-family: 'secuela';
-  src: url(../fonts/variable/secuela.ttf); }
+  font-family: "secuela";
+  src: url(../fonts/variable/secuela.ttf);
+}
 @font-face {
-  font-family: 'secuela-italic';
-  src: url(../fonts/variable/secuela-italic.ttf); }
+  font-family: "secuela-italic";
+  src: url(../fonts/variable/secuela-italic.ttf);
+}
 @font-face {
-  font-family: 'spacegrotesk';
-  src: url(../fonts/variable/spacegrotesk.ttf); }
+  font-family: "spacegrotesk";
+  src: url(../fonts/variable/spacegrotesk.ttf);
+}
 @font-face {
-  font-family: 'sudo';
-  src: url(../fonts/variable/sudo.woff2); }
+  font-family: "sudo";
+  src: url(../fonts/variable/sudo.woff2);
+}
 @font-face {
-  font-family: 'worksans';
-  src: url(../fonts/variable/worksans.ttf); }
+  font-family: "worksans";
+  src: url(../fonts/variable/worksans.ttf);
+}
 @font-face {
-  font-family: 'worksans-italic';
-  src: url(../fonts/variable/worksans-italic.ttf); }
+  font-family: "worksans-italic";
+  src: url(../fonts/variable/worksans-italic.ttf);
+}
 @font-face {
-  font-family: 'dosis';
-  src: url(../fonts/variable/dosis.ttf); }
+  font-family: "dosis";
+  src: url(../fonts/variable/dosis.ttf);
+}
 @font-face {
-  font-family: 'comfortaa';
-  src: url(../fonts/variable/comfortaa.ttf); }
+  font-family: "comfortaa";
+  src: url(../fonts/variable/comfortaa.ttf);
+}
 @font-face {
-  font-family: 'graduate';
-  src: url(../fonts/variable/graduate.ttf); }
+  font-family: "graduate";
+  src: url(../fonts/variable/graduate.ttf);
+}
 @font-face {
-  font-family: 'manrope';
-  src: url(../fonts/variable/manrope.ttf); }
+  font-family: "manrope";
+  src: url(../fonts/variable/manrope.ttf);
+}
 nav {
-  background: #adebdb;
+  background: hsl(30deg, 30%, 80%);
   padding: 1px;
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+}
 
 nav #navLinks {
   display: flex;
-  justify-content: flex-end; }
+  justify-content: flex-end;
+}
 
 nav #hamburger {
-  display: none; }
+  display: none;
+}
 
 nav .hambox {
   display: flex;
-  justify-content: flex-end; }
+  justify-content: flex-end;
+}
 
 nav ul {
   list-style-type: none;
   display: flex;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 
 nav ul li {
   padding: 10px 20px;
-  background: #adebdb; }
+  background: hsl(30deg, 30%, 80%);
+}
 
 nav ul li:hover {
   padding: 10px 20px;
-  background: #f6fdfc; }
+  background: hsl(30deg, 70%, 70%);
+}
 
 #hamburger {
-  background: #adebdb;
-  padding: 10px 15px; }
+  background: hsl(30deg, 30%, 80%);
+  padding: 10px 15px;
+}
 
 #hamburger:hover {
-  background: #f6fdfc; }
+  background: hsl(30deg, 70%, 70%);
+}
 
 @media only screen and (max-width: 940px) {
   nav {
-    display: block; }
-
+    display: block;
+  }
   nav #navLinks {
-    display: none; }
-
+    display: none;
+  }
   nav #hamburger {
-    display: block; } }
+    display: block;
+  }
+}
 html {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 *, *:before, *:after {
-  box-sizing: inherit; }
+  box-sizing: inherit;
+}
 
 body {
   font-family: "manrope", sans-serif;
   font-variation-settings: "wdth" 0, "wght" 400;
-  background: repeating-linear-gradient(-45deg, #616b69, #616b69 35px, transparent 35px, transparent 42px), repeating-linear-gradient(45deg, #616b69, #616b69 35px, transparent 35px, transparent 42px), linear-gradient(180deg, #525b59, #525b59);
+  background: repeating-linear-gradient(-45deg, hsl(210deg, 10%, 30%), hsl(210deg, 10%, 30%) 7px, transparent 7px, transparent 11px), repeating-linear-gradient(45deg, hsl(210deg, 10%, 30%), hsl(210deg, 10%, 30%) 7px, transparent 7px, transparent 11px), linear-gradient(180deg, hsl(210deg, 10%, 28%), hsl(210deg, 10%, 28%));
   background-attachment: fixed;
-  color: #267360;
+  color: hsl(30deg, 10%, 30%);
   padding: 20px;
-  max-width: 1500px;
-  margin: auto; }
+}
 
 a {
-  color: #91082a;
-  text-decoration: none; }
+  color: hsl(210deg, 90%, 30%);
+  text-decoration: none;
+}
 
-header, main {
-  margin: auto;
-  background-color: #f3f7f6;
+header, main,
+footer {
+  background-color: hsl(30deg, 20%, 96%);
   padding: 2px 40px;
-  max-width: 1500px;
-  box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.2); }
+  box-shadow: 0px 6px 4px hsla(30deg, 0%, 0%, 0.2);
+}
 
 header {
-  text-align: center; }
+  text-align: center;
+}
+
+.paper {
+  margin: auto;
+  max-width: 1200px;
+}
 
 .bgtest {
-  background-color: #adebdb;
+  background-color: hsl(30deg, 30%, 80%);
   background-image: url("../img/tex/13.jpg");
   background-blend-mode: multiply;
-  padding: 30px; }
+  padding: 30px;
+}
 
 h1 {
-  font-variation-settings: "wdth" 0, "wght" 500;
-  font-size: 3em; }
-
-footer {
-  background-color: white;
-  margin: 0px;
-  padding: 4px 30px; }
+  font-variation-settings: "wdth" 0, "wght" 400;
+  font-size: 3em;
+}
 
 .swatchpage {
   max-width: 500px;
   margin: auto;
-  margin-top: 60; }
+  margin-top: 60;
+}
 
 .swatchi {
   display: flex;
   justify-content: flex-start;
-  margin: 5px; }
+  margin: 5px;
+}
 
 .swatch {
   width: 30px;
   height: 30px;
   border-radius: 50%;
   margin-right: 10px;
-  border: 1px solid rgba(8, 43, 34, 0.1); }
+  border: 1px solid hsla(30deg, 70%, 10%, 0.1);
+}
 
 .swatch10 {
-  background-color: #f6fdfc; }
+  background-color: hsl(30deg, 70%, 70%);
+}
 
 .swatch11 {
-  background-color: #adebdb; }
+  background-color: hsl(30deg, 30%, 80%);
+}
 
 .swatch12 {
-  background-color: #29a385; }
+  background-color: hsl(30deg, 60%, 40%);
+}
 
 .swatch20 {
-  background-color: #fdf6f8; }
+  background-color: hsl(210deg, 70%, 98%);
+}
 
 .swatch21 {
-  background-color: #ebadbd; }
+  background-color: hsl(210deg, 60%, 80%);
+}
 
 .swatch22 {
-  background-color: #91082a; }
+  background-color: hsl(210deg, 90%, 30%);
+}
 
 .swatchpage h3 {
-  margin: 0px; }
+  margin: 0px;
+}
 
 /*# sourceMappingURL=styles.css.map */
