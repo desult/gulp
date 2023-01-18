@@ -185,12 +185,16 @@ a {
 header, main,
 footer {
   background-color: hsl(30deg, 20%, 96%);
-  padding: 2px 40px;
+  padding: 2px 160px;
   box-shadow: 0px 6px 4px hsla(30deg, 0%, 0%, 0.2);
 }
 
 header {
   text-align: center;
+}
+
+footer {
+  padding-bottom: 30px;
 }
 
 .paper {
@@ -210,10 +214,8 @@ h1 {
   font-size: 3em;
 }
 
-.swatchpage {
-  max-width: 500px;
-  margin: auto;
-  margin-top: 60;
+li {
+  font-variation-settings: "wdth" 0, "wght" 700;
 }
 
 .swatchi {

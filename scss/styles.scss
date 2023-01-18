@@ -18,13 +18,15 @@ a {            color: $swatch22;
 
 header, main,
 footer       { background-color: hsl($hue01, 20, 96);
-               padding: 2px 40px;
+               padding: 2px 160px;
                box-shadow: 0px 6px 4px hsla($hue01, 0, 0, .2);}
 
-header {       text-align: center;}
+header {       text-align: center; }
+
+footer {       padding-bottom: 30px;}
 
 .paper {       margin: auto;
-               max-width: 1200px;}
+               max-width: 1200px; }
 
 .bgtest {      background-color: $swatch11;
                background-image: url("../img/tex/13.jpg");
@@ -34,9 +36,8 @@ header {       text-align: center;}
 h1     {       font-variation-settings: "wdth" 0, "wght" 400;
                font-size: 3em;}
 
-.swatchpage {  max-width: 500px;
-               margin: auto;
-               margin-top: 60; }
+li {           font-variation-settings: "wdth" 0, "wght" 700;}
+
 .swatchi     { display: flex;
                justify-content: flex-start;
                margin: 5px;}
