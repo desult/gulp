@@ -5,35 +5,36 @@ nav {             background: $swatch11;
                   display: flex;
                   justify-content: center; }
 
-nav #navLinks {   display: flex;
-                  justify-content: flex-end; }
-
-nav #hamburger {  display: none; }
-
-nav .hambox {     display: flex;
-                  justify-content: flex-end; }
-
 nav ul {          list-style-type: none;
                   display: flex;
                   margin: 0;
                   padding: 0; }
 
 nav ul li {       padding: 10px 20px;
-                  background: $swatch11; }
+                  background: $swatch11;
+                  text-align: right;}
 
 nav ul li:hover { padding: 10px 20px;
                   background: $swatch10;    }
 
+#navLinks {       display: flex;
+                  justify-content: flex-end; }
+
+.hambox {         display: none; }
+
 #hamburger {      background: $swatch11;
-                  padding: 10px 15px; }
+                  padding: 10px 15px;
+                  display: none; }
 
 #hamburger:hover {background: $swatch10; }
 
 
 @media only screen and (max-width: 940px) {
-nav {           display: block; }
-nav #navLinks { display: none; }
-nav #hamburger {display: block; }           }
+nav {        display: block; }
+#navLinks {  display: none; }
+#hamburger { display: block; }           
+.hambox {    display: flex;
+             justify-content: flex-end; } }
 
 @media only screen and (max-width: 700px) { }
 

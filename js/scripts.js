@@ -1,18 +1,16 @@
-// Still needs work
-// mis-match of diplay flex and display block
-// It functions, but it is not ideal
+// Navigation Unordered List
+var navLinksUL = document.getElementById('navLinks');
 
+// Hides Navigation list if window size is small
 window.onresize = function() {
-    var menu = document.getElementById('navLinks');
-    if (window.innerWidth >= 940)
-      { menu.style.display = '' }
-}
-
-
-function navExpand() {
-  var x = document.getElementById("navLinks");
-  if (x.style.display === "block")
-    { x.style.display = "none" }
+  if (window.innerWidth > 940)
+    { navLinksUL.style.display = 'flex' }
   else
-    { x.style.display = "block" }
-}
+    { navLinksUL.style.display = 'none' } }
+
+// Hamburger
+function navExpand() {
+  if (navLinksUL.style.display === "block")
+    { navLinksUL.style.display = "none" }
+  else
+    { navLinksUL.style.display = "block" } }

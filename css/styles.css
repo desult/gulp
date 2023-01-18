@@ -109,20 +109,6 @@ nav {
   justify-content: center;
 }
 
-nav #navLinks {
-  display: flex;
-  justify-content: flex-end;
-}
-
-nav #hamburger {
-  display: none;
-}
-
-nav .hambox {
-  display: flex;
-  justify-content: flex-end;
-}
-
 nav ul {
   list-style-type: none;
   display: flex;
@@ -133,6 +119,7 @@ nav ul {
 nav ul li {
   padding: 10px 20px;
   background: hsl(30deg, 30%, 80%);
+  text-align: right;
 }
 
 nav ul li:hover {
@@ -140,9 +127,19 @@ nav ul li:hover {
   background: hsl(30deg, 70%, 70%);
 }
 
+#navLinks {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.hambox {
+  display: none;
+}
+
 #hamburger {
   background: hsl(30deg, 30%, 80%);
   padding: 10px 15px;
+  display: none;
 }
 
 #hamburger:hover {
@@ -153,11 +150,15 @@ nav ul li:hover {
   nav {
     display: block;
   }
-  nav #navLinks {
+  #navLinks {
     display: none;
   }
-  nav #hamburger {
+  #hamburger {
     display: block;
+  }
+  .hambox {
+    display: flex;
+    justify-content: flex-end;
   }
 }
 html {
